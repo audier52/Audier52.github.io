@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TecnoTodo - Proyecto de Cultura Digital</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 15px;
+            background-color: #e8f4f8;
+        }
+        
+        header {
+            background-color: #2980b9;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        
+        nav {
+            background-color: #2c3e50;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #3498db;
+        }
+        
+        .producto {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .producto img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto 10px;
+            border: 1px solid #ddd;
+        }
+        
+        .izquierda {
+            text-align: left;
+        }
+        
+        .centro {
+            text-align: center;
+        }
+        
+        .derecha {
+            text-align: right;
+        }
+        
+        .justificado {
+            text-align: justify;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 12px 0;
+            margin-top: 30px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        
+        .info-proyecto {
+            background-color: #e1f5fe;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .materia {
+            font-weight: bold;
+            color: #2980b9;
+        }
+        
+        .semestre {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tecnotodo</h1>
+        <p>Proyecto de Cultura Digital - 2° Semestre</p>
+        <p><span class="materia">Cultura Digital</span> | <span class="semestre">Segundo Semestre</span></p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#proyecto">Nuestro Proyecto</a></li>
+        </ul>
+    </nav>
+    
+    <section id="inicio">
+        <div class="info-proyecto">
+            <h2>¡Bienvenidos a nuestro proyecto!</h2>
+            <p class="justificado">Este sitio web fue desarrollado como parte de las actividades de la materia de <span class="materia">Cultura Digital</span> en nuestro segundo semestre. El objetivo es aplicar los conocimientos que nos enseñaron sobre creación de páginas web usando HTML.</p>
+        </div>
+        
+        <div class="producto">
+                       <img src="t.PNG" alt="Tecnología y educación" width="600">
+            <p class="centro">"La tecnología es solo una herramienta. La gente usa las herramientas para mejorar sus vidas" - Tom Clancy</p>
+        </div>
+    </section>
+    
+    <section id="productos">
+        <h2>Productos Tecnológicos</h2>
+        
+        <div class="producto">
+            <h3>Tableta Educativa</h3>
+                       <img src="H.jpg" alt="Tableta educativa" width="300">
+            <p class="justificado">Dispositivo ideal para estudiantes con aplicaciones educativas preinstaladas y acceso a plataformas de aprendizaje en línea.</p>
+            <p class="izquierda"><strong>Especificaciones:</strong></p>
+            <ul>
+                <li>Pantalla HD de 10 pulgadas</li>
+                <li>32GB de almacenamiento</li>
+                <li>Batería de 12 horas</li>
+                <li>Incluye lápiz digital</li>
+            </ul>
+            <p class="derecha">Precio: $2,800 MXN</p>
+        </div>
+        
+        <div class="producto">
+            <h3>Mochila con Cargador Solar</h3>
+                       <img src="M.jpg" alt="Mochila tecnológica" width="300">
+            <p class="justificado">Mochila escolar con panel solar integrado para cargar tus dispositivos mientras caminas hacia la escuela.</p>
+            <p class="izquierda"><strong>Características:</strong></p>
+            <ul>
+                <li>Capacidad de 20L</li>
+                <li>Puerto USB integrado</li>
+                <li>Material resistente al agua</li>
+                <li>Batería interna de 10,000mAh</li>
+            </ul>
+            <p class="derecha">Precio: $1,200 MXN</p>
+        </div>
+    </section>
+    
+    <section id="proyecto">
+        <h2>Sobre este proyecto</h2>
+        
+        <div class="producto">
+            <h3>Objetivos de aprendizaje</h3>
+            <p class="justificado">Con este proyecto buscamos desarrollar competencias digitales básicas que nos permitan:</p>
+            <ul>
+                <li>Comprender la estructura básica de una página web</li>
+                <li>Aplicar etiquetas HTML fundamentales</li>
+                <li>Utilizar CSS para dar estilo a nuestro contenido</li>
+                <li>Organizar información de manera digital</li>
+                <li>Presentar contenido de forma atractiva y funcional</li>
+            </ul>
+            
+            <h3>Reflexión sobre Cultura Digital</h3>
+            <p class="justificado">Este trabajo nos ha permitido entender mejor cómo funcionan las páginas web que usamos diariamente. En la era digital, comprender estos conceptos básicos es fundamental para ser usuarios críticos y conscientes de la tecnología.</p>
+            
+            <h3>Aprendizajes clave</h3>
+                        <img src="O.jpg" alt="Aprendizaje digital" width="400" class="centro">
+            <p class="justificado">Durante el desarrollo de este proyecto descubrimos que crear una página web requiere:</p>
+            <ol>
+                <li>Planificación previa del contenido</li>
+                <li>Organización lógica de la información</li>
+                <li>Paciencia para resolver errores</li>
+                <li>Creatividad para el diseño</li>
+                <li>Trabajo en equipo</li>
+                  <p class="justificado">Aqui podemos ver una pagina real de electronica :</p>
+                 <a href="https://www.radioshack.com.mx/store/radioshack/en/" target="_blank">Tienda real</a>
+            </ol>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Proyecto escolar de <span class="materia">Cultura Digital</span> - 2° Semestre</p>
+        <p>Escuela Cbtis 128</p>
+        <p>Equipo: Audier Villanueva Herrera | Sebastian Almeida Bustillos | Ivan Emiliano Quintana Serrano </p>
+        <p>Grupo: [2-E | Turno: [Matutino]</p>
+        <p>Año: 2025</p>
+    </footer>
+</body>
+</html>
